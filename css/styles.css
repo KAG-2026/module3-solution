@@ -1,0 +1,96 @@
+* { box-sizing: border-box; }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #183153;
+    background-color: #f4f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+#header-nav {
+    background-color: #0d47a1;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 4px solid #64b5f6;
+    margin-bottom: 0;
+}
+.navbar-brand {
+    color: #fff !important;
+    font-size: 28px;
+    font-weight: bold;
+    height: auto;
+    padding: 20px 15px;
+}
+.navbar-brand:hover, .navbar-brand:focus { color: #bbdefb !important; }
+#nav-list { margin-top: 0; margin-bottom: 0; }
+#nav-list a {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+}
+#nav-list a:hover, #nav-list a:focus { background-color: #1976d2; color: #fff; }
+
+.navbar-default .navbar-toggle {
+    border: 1px solid #fff;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.navbar-default .navbar-toggle .icon-bar { background-color: #fff; }
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color: #1565c0; }
+
+#page-heading {
+    color: #0d47a1;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu-section {
+    background-color: #fff;
+    border: 2px solid #90caf9;
+    border-radius: 8px;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+    scroll-margin-top: 20px;
+}
+.menu-section h2 {
+    color: #0d47a1;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.menu-section p {
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #0d47a1;
+    color: #fff;
+    padding: 20px 10px;
+    margin-top: 10px;
+    border-top: 4px solid #64b5f6;
+}
+footer p { margin: 0; font-size: 15px; font-weight: bold; }
+
+@media (min-width: 768px) {
+    .navbar-brand { padding-top: 20px; padding-bottom: 20px; }
+    .menu-section { margin-left: 0; margin-right: 0; }
+}
+
+@media (max-width: 767px) {
+    #main-menu { border-top: 1px solid #64b5f6; }
+    #nav-list { background-color: #1565c0; }
+    #nav-list li { border-bottom: 1px solid #64b5f6; }
+    #nav-list li:last-child { border-bottom: none; }
+    #nav-list a { padding: 12px; font-size: 16px; }
+    #page-heading { font-size: 30px; margin-top: 25px; margin-bottom: 25px; }
+    .menu-section { padding: 18px; margin-bottom: 20px; }
+    .menu-section h2 { font-size: 24px; }
+    .menu-section p { font-size: 15px; line-height: 1.7; }
+}
